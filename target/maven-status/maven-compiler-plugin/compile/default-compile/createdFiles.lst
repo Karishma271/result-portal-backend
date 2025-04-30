@@ -1,0 +1,13 @@
+com\school\resultportal\controller\StudentController.class
+com\school\resultportal\model\Student.class
+com\school\resultportal\security\JwtUtil.class
+com\school\resultportal\model\AuthRequest.class
+com\school\resultportal\repository\AdminRepository.class
+com\school\resultportal\service\PdfService.class
+com\school\resultportal\service\StudentService.class
+com\school\resultportal\controller\AuthController.class
+com\school\resultportal\ResultPortalApplication.class
+com\school\resultportal\model\Admin.class
+com\school\resultportal\security\JwtFilter.class
+com\school\resultportal\security\SecurityConfig.class
+com\school\resultportal\repository\StudentRepository.class
