@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57ad443-4f21-479c-8564-a8a6ff9d8ea2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/ResultPortalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/model/AuthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/repository/AdminRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/security/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/security/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/service/PdfService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/school/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/240706040022.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/240706046032.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/240712033232.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/240712035012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/241603013072.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/241608001012.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/grade3_2301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/grade4_2402.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/grade5_2505.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/grade6_2610.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/grade7_2703.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/grade8_2812.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/std3_by_uid_marksheets.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
