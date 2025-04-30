@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d57ad443-4f21-479c-8564-a8a6ff9d8ea2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/upload/240706040022.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/240706046032.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/240712033232.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/240712035012.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/241603013072.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/241608001012.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/grade3_2301.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/grade4_2402.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/grade5_2505.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/grade6_2610.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/grade7_2703.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/grade8_2812.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload/std3_by_uid_marksheets.zip" beforeDir="false" />
-    </list>
+    <list default="true" id="d57ad443-4f21-479c-8564-a8a6ff9d8ea2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +32,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
