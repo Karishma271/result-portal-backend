@@ -46,7 +46,10 @@ public class AuthController {
     // ✅ Temporary admin reset API (no auth required)
     @PostMapping("/admin/reset")
     public ResponseEntity<String> resetAdmin() {
-        Admin admin = adminRepository.findByUsername("admin").orElse(new Admin());
+        Admin admin = adminRepository.findByUsername("admin");
+        if (admin == null) {
+            admin = new Admin();
+        }
         admin.setUsername("admin");
         admin.setPassword(passwordEncoder.encode("admin123"));
         adminRepository.save(admin);
