@@ -7,6 +7,8 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import org.springframework.web.cors.CorsConfiguration;
@@ -32,7 +34,7 @@ public class SecurityConfig {
                                 "/api/auth/**",
                                 "/api/student/view",
                                 "/api/student/pdf/**",
-                                "/api/admin/reset" // ✅ TEMP reset route for admin
+                                "/api/admin/reset" // ✅ TEMP reset route
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
@@ -49,10 +51,17 @@ public class SecurityConfig {
         return config.getAuthenticationManager();
     }
 
+    // ✅ Required for password encryption and admin reset
+    @Bean
+    public PasswordEncoder passwordEncoder() {
+        return new BCryptPasswordEncoder();
+    }
+
+    // ✅ CORS config to allow frontend/backend interaction
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(Arrays.asList("*")); // Allow all origins
+        config.setAllowedOrigins(Arrays.asList("*")); // Accept all origins (adjust in production)
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("*"));
 
