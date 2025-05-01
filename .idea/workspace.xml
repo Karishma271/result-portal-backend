@@ -5,52 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d57ad443-4f21-479c-8564-a8a6ff9d8ea2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706040022210005.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032110029.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210002.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210005.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210006.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210010.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210011.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210012.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210013.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210015.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210016.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210017.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210018.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210019.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210020.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210021.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210022.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210026.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210029.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210031.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210033.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210036.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032210040.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220003.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220004.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220007.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220008.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220009.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220014.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220024.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220025.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220027.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220028.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220030.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220032.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220034.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220035.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220039.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220041.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032220042.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240706046032320039.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240712033232220042.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/240712035012220089.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/241603013072210022.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/std3-bulk/241608001012210010.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/school/resultportal/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/school/resultportal/controller/StudentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

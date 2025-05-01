@@ -62,7 +62,8 @@ public class StudentController {
     @PostMapping("/upload/{uid}")
     public ResponseEntity<String> uploadPdf(@PathVariable String uid, @RequestParam("file") MultipartFile file) {
         try {
-            Optional<Student> optionalStudent = studentService.getByUid(uid);
+            // Use existing method with empty grade for matching
+            Optional<Student> optionalStudent = studentService.getByUidAndGrade(uid, "");
             if (optionalStudent.isEmpty()) return ResponseEntity.notFound().build();
 
             String filename = uid + "_" + file.getOriginalFilename();
@@ -77,6 +78,7 @@ public class StudentController {
             return ResponseEntity.internalServerError().body("Upload failed: " + e.getMessage());
         }
     }
+
 
     // ✅ Serve PDF file for viewing/downloading
     @GetMapping("/pdf/{filename}")
