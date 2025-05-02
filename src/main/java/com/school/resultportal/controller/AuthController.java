@@ -26,13 +26,11 @@ public class AuthController {
 
         Admin admin = adminRepository.findByUsername(username);
         if (admin != null && passwordEncoder.matches(password, admin.getPassword())) {
-            return ResponseEntity.ok("✅ Login successful");
-        } else {
-            return ResponseEntity.status(401).body("❌ Invalid credentials");
+            return ResponseEntity.ok("Login successful");
         }
+        return ResponseEntity.status(403).body("Invalid credentials");
     }
 
-    // TEMP: Reset admin user to default
     @PostMapping("/admin/reset")
     public ResponseEntity<String> resetAdmin() {
         Admin admin = adminRepository.findByUsername("admin");
